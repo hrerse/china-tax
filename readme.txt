@@ -1,6 +1,6 @@
 读取文件使用python内置方法open()打开文件，使用.read()读取全部内容，示例如下：
 
-path = "c:\py.txt"
+path = "c:\doc\py.txt"
 fi = open(path, "r")
 print(fi.read())
 fi.close()
